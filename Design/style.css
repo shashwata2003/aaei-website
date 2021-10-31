@@ -1,0 +1,32 @@
+* { 
+    box-sizing: border-box ;
+
+}
+
+h1.main{
+    text-align: center;
+    color: aqua;
+    padding: 40px;
+    background-color: cadetblue;
+    padding: 100px;
+ }
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+nav{
+    background:chartreuse;
+    overflow: hidden;
+}
+
+nav a:hover{
+    color: tomato;
+}
+
+nav a:visited{ 
+    color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaei | Feedback</title>
+    <link rel="stylesheet" href="Design/aaeifeed.css">
+  
+    
+</head>
+<body>
+    <header>
+        <h1 class="main"><u>Ashish Agarwal Eductional Institute</u></h1>
+        </header>
+        <!--Using nav tag-->
+        <nav>
+            <a href="aaei.com.html">Home</a>
+            <a href="#">Course</a>
+            <a href="#">Products</a>
+            <a href="Feedback form.html">Enquiry</a>
+            <a href="https://aaei.proctur.com/login"> Login in/Sign up</a>
+        </nav>
+        <form>
+        <h1 class="head2"><b>Feedback</b></h1>
+        
+        <P>Name:<input type="text" name="name" id="name" placeholder="like Shashwata Samanta"></P>
+        <p>
+            Email *:<input type="email" name="email" id="email" required placeholder="abc@gmail.com">
+        </p>
+        <fieldset>
+            <Legend>Class *:</Legend>
+        <p>
+            9th<input type="radio" name="class" id="9th" required>
+            10th<input type="radio" name="class" id="10th" required>
+            11th<input type="radio" name="class" id="11th" required>
+            12th<input type="radio" name="class" id="12th" required>
+        </p>
+           </fieldset>
+           <fieldset>
+           <p><legend>Course *:  </legend>
+            Maths<input type="checkbox" name="course" id="Maths" >
+            
+            Physics<input type="checkbox" name="course" id="Physics" >
+            
+            Chemistry<input type="checkbox" name="course" id="chemistry">
+            
+            Biology<input type="checkbox" name="course" id="Biology">
+           
+            Computer<input type="checkbox" name="course" id="computer">
+
+           </p> 
+        </fieldset>
+        <p>Enquiry type *:
+            <select name="enquiry type" id="enquiry type" required>
+                <option value="#">--Select a Option--</option>
+                <option value="Fees">Fees</option>
+                <option value="Courses">Courses</option>
+                <option value="Admission">Admission</option>
+                <option value="online class guildlines">Online class guildlines</option>
+            
+            </select>
+            </p>
+            <p>Message *:
+                <textarea name="message" id="message" cols="75" rows="15" required placeholder="Enter the Enquiry"></textarea>
+            </p>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+
+        </form>    
+        
+</body>
+</html>
